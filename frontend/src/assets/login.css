@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+
+.login-box {
+  width: 320px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-top: 4px solid #667eea;
+}
+
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #444;
+}
+
+.login-title i {
+  color: #667eea;
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+
+.form-control,
+.form-select {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 4px rgba(102, 126, 234, 0.4);
+}
+
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 13px;
+}
+
+.input-icon input {
+  padding-left: 32px;
+}
+
+
+.btn-login {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #667eea;
+  font-size: 13px;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+
+.text-center {
+  font-size: 13px;
+}
